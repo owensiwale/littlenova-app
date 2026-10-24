@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="face" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+    <linearGradient id="beak" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+
+  <!-- Playful sparkles -->
+  <circle cx="90" cy="110" r="14" fill="#fef08a" opacity="0.8" />
+  <circle cx="420" cy="130" r="18" fill="#fef08a" opacity="0.8" />
+  <polygon points="410,380 416,396 432,398 419,410 423,426 410,416 397,426 401,410 388,398 404,396" fill="#fef08a" opacity="0.9" />
+
+  <!-- Mascot Body (Pip the Parrot/Owl) -->
+  <ellipse cx="256" cy="290" rx="160" ry="150" fill="#22c55e" />
+  <ellipse cx="256" cy="310" rx="120" ry="110" fill="url(#face)" />
+
+  <!-- Cheerful Wings -->
+  <ellipse cx="110" cy="300" rx="35" ry="75" transform="rotate(-25 110 300)" fill="#16a34a" />
+  <ellipse cx="402" cy="300" rx="35" ry="75" transform="rotate(25 402 300)" fill="#16a34a" />
+
+  <!-- Big expressive friendly eyes -->
+  <!-- Left Eye -->
+  <circle cx="195" cy="245" r="42" fill="#ffffff" stroke="#e2e8f0" stroke-width="4" />
+  <circle cx="205" cy="245" r="26" fill="#1e293b" />
+  <circle cx="215" cy="235" r="10" fill="#ffffff" />
+  <circle cx="198" cy="252" r="4" fill="#ffffff" />
+
+  <!-- Right Eye -->
+  <circle cx="317" cy="245" r="42" fill="#ffffff" stroke="#e2e8f0" stroke-width="4" />
+  <circle cx="327" cy="245" r="26" fill="#1e293b" />
+  <circle cx="337" cy="235" r="10" fill="#ffffff" />
+  <circle cx="320" cy="252" r="4" fill="#ffffff" />
+
+  <!-- Rosy cheeks -->
+  <circle cx="150" cy="295" r="18" fill="#f43f5e" opacity="0.45" />
+  <circle cx="362" cy="295" r="18" fill="#f43f5e" opacity="0.45" />
+
+  <!-- Cute Beak / Smile -->
+  <path d="M 230 270 Q 256 315 282 270 Z" fill="url(#beak)" />
+
+  <!-- Cool Little Headphones -->
+  <path d="M 120 220 A 140 140 0 0 1 392 220" fill="none" stroke="#ec4899" stroke-width="20" stroke-linecap="round" />
+  <rect x="96" y="210" width="36" height="60" rx="16" fill="#f43f5e" stroke="#ffffff" stroke-width="4" />
+  <rect x="380" y="210" width="36" height="60" rx="16" fill="#f43f5e" stroke="#ffffff" stroke-width="4" />
+
+  <!-- Little Star Wand / Badge in center -->
+  <g transform="translate(256, 380)">
+    <circle cx="0" cy="0" r="28" fill="#f59e0b" />
+    <text x="0" y="8" font-family="'Nunito', sans-serif" font-weight="900" font-size="24" fill="#ffffff" text-anchor="middle">ABC</text>
+  </g>
+</svg>
